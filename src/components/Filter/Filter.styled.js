@@ -15,5 +15,6 @@ export const Input = styled.input`
   border-radius: 10px;
   padding-left: 10px;
   outline: 0;
+  background-color: rgba(0, 0, 0, 0.1);
   }
 `;
