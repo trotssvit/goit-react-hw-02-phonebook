@@ -15,12 +15,7 @@ export const Input = styled.input`
   border-radius: 10px;
   padding-left: 10px;
   outline: 0;
-  &:focus,
-  &:hover {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
-      -23px 0 20px -23px rgba(0, 0, 0, 0.8),
-      23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  }
+  background-color: rgba(0, 0, 0, 0.1);
 `;
 
 export const Label = styled.label`
@@ -40,6 +35,9 @@ export const Button = styled.button`
   &:hover,
   &:focus {
     background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+      -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+      23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
   cursor: pointer;
   margin-bottom: 25px;

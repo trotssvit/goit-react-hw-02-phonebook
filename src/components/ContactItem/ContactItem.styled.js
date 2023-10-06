@@ -16,11 +16,11 @@ export const Button = styled.button`
   margin-left: auto;
   padding: 0px;
   border-radius: 5px;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.1);
   border: none;
   cursor: pointer;
   &:hover,
   &:focus {
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.2);
   }
 `;

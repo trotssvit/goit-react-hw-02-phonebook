@@ -14,9 +14,6 @@ export const Input = styled.input`
   border: none;
   border-radius: 10px;
   padding-left: 10px;
-  background-color: #0002;
   outline: 0;
-  &:focus,
-  &:hover {
   }
 `;

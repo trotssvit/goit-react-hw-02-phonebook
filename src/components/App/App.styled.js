@@ -4,6 +4,7 @@ export const Div = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  border-radius: 25px;
   width: 40%;
   max-height: 100%;
   flex-wrap: wrap;
